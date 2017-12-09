@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^7.1.4",
+    "autoprefixer": "^7.2.2",
     "bootstrap": "^4.0.0-beta",
     "cssnano": "^3.10.0",
     "gulp": "^3.9.1",
