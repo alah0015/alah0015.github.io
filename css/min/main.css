@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 @import url(font/Gill Sans MT Ext Condensed Bold(1));
 body {
     line-height: 1;
@@ -7,7 +6,7 @@ body {
 }
 
 .flex-container {
-   
+
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: row-reverse;
@@ -54,7 +53,7 @@ body {
 }
 
 
-/* Change the color of links on hover*/ 
+/* Change the color of links on hover*/
 
 .topnav a:hover {
     font-family: serif;
@@ -84,7 +83,7 @@ heading {
 
 img {
     width: 40%;
- 
+
     display: block;
     margin: 0 auto;
     margin-top: 90px;
@@ -155,7 +154,7 @@ p {
 }
 
 .column-2 {
-    
+
     width: 20%;
     float: left;
     position: absolute;
@@ -639,4 +638,3 @@ body.no-scroll .popup {
         width: 30%;
     }
 }
->>>>>>> 042eebf8730c02cfe565e551ff1922c7f1076fbb
