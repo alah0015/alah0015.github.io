@@ -191,9 +191,9 @@ p {
 }
 
 .column-2 {
-   
+
     width:20%;
-        
+
     float: left;
     position: absolute;
     padding: 190px;
@@ -243,7 +243,7 @@ hr {
 
 button {
   font-size: 0px;
-  font-feature-settings:hidden; 
+  font-feature-settings:hidden;
   border: 0.25rem solid #fff;
   padding:10px 10px;
   margin: 1rem;
@@ -293,7 +293,7 @@ button.grow_skew_backward:hover::after {
 
 
 button.grow_skew_backward:nth-of-type(1) {
-	
+
     width:250px;
     height: 250px;
 }
@@ -308,13 +308,13 @@ button.grow_skew_backward:nth-of-type(1):after {
 		border-color: black;
     transition: all 0.4s ease-out;
 }
-    
+
 
 
 
 
 button.grow_skew_backward:nth-of-type(2) {
-		
+
      width:250px;
     height: 250px;
 }
@@ -460,7 +460,7 @@ button.slide_from_bottom {
     font-size: 20px;
     padding:1rem 5rem;
     margin-top: 23rem;
-  
+
 }
 
 
@@ -496,7 +496,7 @@ i.social-icons {
 
 i.social-icons:not(:last-child) {
     border-bottom: none;
-    /* Prevent double borders*/ 
+    /* Prevent double borders*/
 }
 
 
@@ -531,7 +531,7 @@ i.socail-icons:hover {
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
+    #secondary { width:30%; margin-left:3%;}
 }
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
@@ -580,7 +580,7 @@ h6 {
     font-family: sans-serif;
     font-size: 30px;
     color: #fff;
-  
+
 }
 
 
