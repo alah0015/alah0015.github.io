@@ -3,6 +3,8 @@ var _body = document.getElementById('body')
 var _close = document.getElementById('close')
 var _modal = document.getElementById('modal')
 var _gallery = document.getElementById('gallery')
+var _nav = document.getElementById("nav"),
+    closeNav = document.getElementById("close_nav");
     //* exit button events
 window.addEventListener('keyup', closeEventHandler)
 _close.addEventListener('click', closeEventHandler)
@@ -21,4 +23,18 @@ _gallery.addEventListener('click', function (e) {
             _modal.innerHTML = '<img src="' + url + '">';
         }
     })
+
+    closeNav.addEventListener('click', function(e) {
+      nav.classList.add('hide');
+      e.stopPropagation()
+    })
+
+    // nav
+    nav.addEventListener('click', function() {
+      if(this.classList.contains('hide')){
+        this.classList.remove('hide')
+      }
+    })
+
+
     //* js ends
