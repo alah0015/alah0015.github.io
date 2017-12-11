@@ -5,6 +5,17 @@ var _modal = document.getElementById('modal')
 var _gallery = document.getElementById('gallery')
 var _nav = document.getElementById("nav"),
 var _closeNav = document.getElementById("close_nav");
+var _x = document.getElementById("myTopnav");
+
+
+if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+
+
+
 
 // nav
 closeNav.addEventListener('click', function (e) {
